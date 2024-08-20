@@ -1,197 +1,155 @@
-body{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-      
-
-.header{
-    display: grid;
-    grid-template-columns: 15% 85%;
+@media screen and (max-width: 300px){
+    .header{
+        padding: 0;
+        margin: 0;
+    }
     
+    .tittle{
+        font-size: 0.1rem;
+    }
+    .home a {
+        font-size: 0.1rem;
+    }
+    .gp a{
+        font-size: 0.1rem;
+    }
+    
+    .ui a{
+        font-size: 0.1rem;
+    }
+    .cine a{
+        font-size: 0.1rem;
+    }
+    .dropbtn a{
+        font-size: 0.1rem;
+    }
+    .dropdown-content ul li a{
+        font-size: 0.1rem;
+    }
+
 }
-.profile .profile-container{
-    width: 100%;
-    margin: auto;
-    border: 1px solid rgb(78, 78, 78);
-    border-radius: 10px;
-    padding: 10px 0;
-}
-.profile .profile-avatar{
-    text-align: center;
+
+@media screen and (max-width: 375px){
+.header{
+    padding: 0;
+    margin: 0;
 }
 
 .tittle{
-    text-align: center;
+    font-size: 0.5rem;
+}
+.home a {
+    font-size: 0.5rem;
+}
+.gp a{
+    font-size: 0.5rem;
 }
 
-.tittle h1{
-    font-size: 1rem;
+.ui a{
+    font-size: 0.5rem;
+}
+.cine a{
+    font-size: 0.5rem;
+}
+.dropbtn a{
+    font-size: 0.5rem;
+}
+.dropdown-content ul li a{
+    font-size: 0.5rem;
 }
 
-.social-media{
-    text-align: center;
-    margin: 10px 0;
-    font-size: 1.3rem;
 }
-
-.social-media a i{
-    color: black;
-    padding: 0 3px;
-}
-
-.social-media a i:hover{ opacity: 1; color: orangered;}
-
-.navbar{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    
-}
-
-.navbar a{
-    text-decoration: none;
-    color: black;
-    padding: 3px 0;
-}
-
-.navbar span{
-    font-size: 0.8rem;
-    font-style: bold;
-    padding: 6px 0;
-}
-.navbar a:hover{opacity:  1; color: orangered;}
-
-.dropbtn {
-    color: rgb(0, 0, 0);
-    
-    border: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #ffffff;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 10px 0;
-    text-decoration: none;
-    display: block;
-    font: 0.5rem;
-  }
-  
-
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown-content a:hover{text-decoration: underline;}
-
-/***********/
-
-.gallery-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1px, 1fr)); 
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    margin-left: 5px;
-    padding: 10px 10px;
-  }
-
-  .image-gallery {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .image-gallery img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
-    padding: 3px 3px;
-  }
-
-  .page-number{
-    width: 100%;
-    height: auto;
-    border-radius: 1px;
-    padding: 10px 0 ;
-    display: flex;
-    margin-left: 100%;
-  }
-
-  .page-number a{
-    text-decoration: none;
-    color: black;
-    padding: 0 10px;
-    font-size: 1.5rem;
-  }
-.page-number a:hover{opacity:  1; color: orangered;}
 
 
 @media (max-width: 576px){
-
     .header{
-        display: grid;
-        grid-template-columns: 22% 78%;
+        padding: 0;
+        margin: 0;
     }
-    .tittle h1{
+    
+    .tittle{
         font-size: 0.5rem;
     }
-    .social-media{
-       font-size: 0.5rem;
-    }
-    .navbar span{
+    .home a {
         font-size: 0.5rem;
     }
-   
+    .gp a{
+        font-size: 0.5rem;
     }
-   
-   
+    
+    .ui a{
+        font-size: 0.5rem;
+    }
+    .cine a{
+        font-size: 0.5rem;
+    }
+    .dropbtn a{
+        font-size: 0.5rem;
+    }
+    .dropdown-content ul li a{
+        font-size: 0.5rem;
+    }
 
+   
+}
 @media (max-width: 768px){
-
     .header{
-        display: grid;
-        grid-template-columns: 15% 85%;
+        padding: 0;
+        margin: 0;
     }
-    .tittle h1{
+    
+    .tittle{
         font-size: 0.6rem;
     }
-    .social-media{
-       font-size: 0.6rem;
-    }
-    .navbar span{
+    .home a {
         font-size: 0.6rem;
     }
-   
+    .gp a{
+        font-size: 0.6rem;
+    }
+    
+    .ui a{
+        font-size: 0.6rem;
+    }
+    .cine a{
+        font-size: 0.6rem;
+    }
+    .dropbtn a{
+        font-size: 0.6rem;
+    }
+    .dropdown-content ul li a{
+        font-size: 0.6rem;
+    }
+    
 }
 
 @media (max-width: 1400px){
-
     .header{
-        display: grid;
-        grid-template-columns: 15% 85%;
+        padding: 0;
+        margin: 0;
     }
-    .tittle h1{
-        font-size: 1.3rem ;
-    }
-    .social-media{
-        font-size: 1rem ;
-    }
-
-    .navbar span{
+    
+    .tittle{
         font-size: 1rem;
     }
- 
+    .home a {
+        font-size: 1rem;
+    }
+    .gp a{
+        font-size: 1rem;
+    }
+    
+    .ui a{
+        font-size: 1rem;
+    }
+    .cine a{
+        font-size: 1rem;
+    }
+    .dropbtn a{
+        font-size: 1rem;
+    }
+    .dropdown-content ul li a{
+        font-size: 1rem;
+    }
+   
 }
-
-
-
